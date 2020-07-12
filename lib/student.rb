@@ -6,10 +6,8 @@ class Student < User
 
   end
 
-  def learn(word)
-    word = " "
-    @knowledge<< word    
-
+  def learn(string)
+      @knowledge << string
   end
 
 end
