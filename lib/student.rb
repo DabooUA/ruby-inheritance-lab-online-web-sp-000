@@ -7,7 +7,7 @@ class Student < User
   end
 
   def learn(word)
-    word = ""
+    word = " "
     @knowledge<< word    
 
   end
